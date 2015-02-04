@@ -1,4 +1,5 @@
 __MACOSX/**
 cookbooks/**
 node_modules/**
+private/**
 Gruntfile.js
