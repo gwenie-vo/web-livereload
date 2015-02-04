@@ -1,0 +1,173 @@
+/*General style*/
+*
+{
+    font-family: 'Arial';
+
+    margin: 0;
+    padding: 0;
+}
+.col-md-3,
+.col-md-9
+{
+    display: inline-block;
+
+    padding: 0 15px;
+}
+
+/*Specific style for page*/
+body
+{
+    background: #f4f7f8;
+}
+header
+{
+    width: 100%;
+    padding: 30px 0;
+
+    background: #fff;
+}
+header .container
+{
+    overflow: hidden;
+
+    max-width: 1120px;
+    height: inherit;
+    margin: 0 auto;
+}
+header .container .col-md-3
+{
+    width: 23%;
+}
+header .container .col-md-9
+{
+    width: 70%;
+    height: 60px;
+}
+header .container img
+{
+    display: block;
+
+    width: 170px;
+}
+h1
+{
+    float: left;
+
+    width: 150px;
+}
+header nav
+{
+    float: right;
+
+    width: 100%;
+}
+header nav ul
+{
+    float: right;
+
+    width: 80%;
+    height: 60px;
+    padding-top: 15px;
+}
+header nav ul li
+{
+    display: inline;
+
+    padding: 0 21px;
+
+    list-style: none;
+}
+header nav ul li a:hover
+{
+    color: #e53f51;
+}
+header nav ul li a
+{
+    font-size: 13px;
+    font-weight: 600;
+
+    margin: 18px 0 26px;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    color: #485059;
+}
+header nav ul li.fa
+{
+    font-size: 11px;
+
+    padding: 8px 9px;
+
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+/*style for slider - practice 2*/
+.banner
+{
+    height: 530px;
+    overflow: hidden;
+
+    background: url('../img/slider.jpg')no-repeat;
+}
+.banner .banner-content
+{
+    margin: 100px 200px 20px 400px;
+    width: 55%;
+}
+.banner div.title{
+    width: 613px;
+}
+.banner .bold-text
+{
+    font-weight: bold;
+}
+.banner div h2
+{
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 100;
+}
+hr{
+    width: 100px;
+    border: 2px solid rgb(169, 32, 32);
+}
+.banner div p{
+    width: 610px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #3B454D;
+    margin: 30px 0;
+}
+.button-try a{
+    text-transform: uppercase;
+    background: none;
+    color: #444;
+    padding: 12px 20px 13px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-decoration: none;
+    border: 2px solid #444;
+}
+.arrow-wrap{
+    margin: -130px 20px 0px;
+    height: 50px;
+}
+.arrow-wrap a{
+    display: block;
+    height: inherit;
+    width: 40px;
+}
+.next{
+    float: right;
+    background: url("../img/skin.png") no-repeat;
+    background-position-x: -150px;
+}
+.prev{
+    float: left;
+    background: url("../img/skin.png") no-repeat;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "web-livereload",
+  "version": "0.0.1",
+  "description": "Web map application based on Esri bootstrap-map-js template",
+  "main": "gruntfile.js",
+  "author": "Sang Dong",
+  "license": "MIT",
+
+  "devDependencies": {
+    "grunt": "0.4.2",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-contrib-connect": "0.7.1",
+    "connect-livereload": "0.3.2"
+  },
+  "engines": {
+    "node": "0.10.0"
+  }
+}

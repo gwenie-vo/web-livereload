@@ -1,0 +1,570 @@
+/*General style*/
+*
+{
+    font-family: 'Arial';
+
+    margin: 0;
+    padding: 0;
+}
+.end-section
+{
+    width: 100%;
+    height: 120px;
+}
+body
+{
+    background: #cacaca;
+}
+.col-md-3,
+.col-md-9
+{
+    display: inline-block;
+
+    padding: 0 15px;
+}
+/*blessing header style*/
+header
+{
+    width: 100%;
+    height: 100px;
+    margin-left: 0;
+
+    border-bottom: solid 1px #eee;
+    background: rgba(255,255,255,.95);
+}
+header .container
+{
+    overflow: hidden;
+
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+}
+header .logo-wrap
+{
+    float: left;
+
+    width: 23%;
+}
+header .logo-wrap h1
+{
+    display: table-cell;
+
+    height: 100px;
+
+    vertical-align: middle;
+}
+header .container .nav-wrap
+{
+    float: left;
+
+    width: 70%;
+}
+header .container .nav-wrap .nav-main
+{
+    display: inline-block;
+    float: left;
+
+    width: 78%;
+    height: 60px;
+    margin-top: 20px;
+
+    vertical-align: middle;
+}
+header .container .nav-wrap .nav-main ul li
+{
+    display: inline-block;
+
+    list-style: none;
+}
+header .container .nav-wrap .nav-main a
+{
+    font-size: 13px;
+
+    display: block;
+
+    padding: 20px 14px 17px 14px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #555;
+}
+header .container .nav-wrap .social
+{
+    float: left;
+
+    width: 22%;
+    margin-top: 40px;
+}
+header .container .nav-wrap .social a
+{
+    font-size: 18px;
+
+    display: inline-block;
+
+    padding: 0 8px 0 8px;
+
+    color: #333;
+}
+header .container .nav-wrap a:hover
+{
+    color: #8ec92f;
+}
+/*style for Latest BLOG*/
+.main
+{
+    width: 100%;
+}
+.main .main-content
+{
+    overflow: hidden;
+
+    height: 211px;
+}
+.main .block
+{
+    float: left;
+
+    width: 25%;
+}
+.main .first-block
+{
+    height: inherit;
+
+    background: #8ec92f;
+}
+.main .first-block .text-area
+{
+    margin-top: 80px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: #fff;
+}
+.main .first-block .text-area span
+{
+    font-size: 15px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.main .first-block .text-area h2
+{
+    font-size: 40px;
+    font-weight: 100;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.main .detail-block
+{
+    height: inherit;
+}
+.main .detail-block .inner
+{
+    margin: 14px 0;
+    padding: 40px;
+}
+.main .detail-block .inner span
+{
+    font-size: 13px;
+
+    padding: 2px 10px 2px 10px;
+
+    letter-spacing: 1px;
+
+    color: #fff;
+    background: #8ec92f;
+}
+.main .detail-block .inner h3
+{
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 10px 0 10px 0;
+    padding: 0;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.main .detail-block .inner p
+{
+    font-size: 13px;
+
+    color: #888;
+}
+.main .block.even
+{
+    background: #f5f5f5;
+}
+.main .block.odd
+{
+    background: #f0f0f0;
+}
+
+/*Style for LATEST SERMONS*/
+.sermons-section
+{
+    padding: 60px 0;
+
+    background: #fff;
+}
+.sermons-section .sermons-container
+{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.sermons-section .sermons-container h2
+{
+    font-size: 26px;
+    font-weight: lighter;
+
+    margin-bottom: 60px;
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sermons-section .sermons-container h2:before
+{
+    right: .5em;
+
+    margin-left: -50%;
+}
+.sermons-section .sermons-container h2:after
+{
+    left: .5em;
+
+    margin-right: -50%;
+}
+.sermons-section .sermons-container h2:before,
+.sermons-section .sermons-container h2:after
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20%;
+    height: 1px;
+
+    content: '';
+    vertical-align: middle;
+
+    background-color: #bbb;
+}
+.sermons-section .sermons-container .sermons-content .sermon
+{
+    display: table;
+
+    width: 975px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #eee;
+}
+.sermons-section .sermons-container .sermons-content .sermon:hover
+{
+    border-bottom: solid 1px #8ec92f;
+}
+.sermons-section .left-col,
+.sermons-section .mid-col,
+.sermons-section .right-col
+{
+    display: table-cell;
+
+    padding-right: 20px;
+
+    vertical-align: middle;
+}
+.sermons-section .left-col
+{
+    width: 180px;
+}
+.sermons-section .mid-col h3
+{
+    font-size: 20px;
+    font-weight: lighter;
+
+    letter-spacing: 1px;
+}
+.sermons-section .right-col
+{
+    width: 291px;
+
+    text-align: right;
+}
+.sermons-section .mid-col span
+{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.sermons-section .mid-col span a
+{
+    text-decoration: none;
+
+    color: #8ec92f;
+}
+.sermons-section .right-col a i
+{
+    font-size: 24px;
+
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    padding: 15px;
+
+    text-align: right;
+
+    color: #ddd;
+    border: 1px solid #ddd;
+}
+.sermons-section .right-col a i:hover
+{
+    color: #8ec92f;
+    border-color: #8ec92f;
+}
+
+/* Style Great feature */
+.feature-container
+{
+    width: 600px;
+    margin: 0 auto;
+
+    text-transform: uppercase;
+
+    background: #212e3d;
+}
+.feature-container .blank-space
+{
+    overflow: hidden;
+
+    height: 70px;
+}
+.feature-container div h3
+{
+    font-size: 23px;
+    font-weight: lighter;
+
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #fff;
+    border: 4px solid #fff;
+}
+.feature-container .feature
+{
+    width: 470px;
+    margin: 0 auto;
+}
+.feature-container .feature li
+{
+    line-height: 72px;
+
+    height: 72px;
+    padding-left: 105px;
+
+    list-style: none;
+
+    color: #fff;
+    border-top: 1px dashed #84878c;
+}
+.feature-container .feature .item1
+{
+    background: url('../img/hinh1.jpg') no-repeat 0 10px;
+}
+.feature-container .feature .item2
+{
+    background: url('../img/hinh2.jpg') no-repeat 0 10px;
+}
+.feature-container .feature .item3
+{
+    background: url('../img/hinh3.jpg') no-repeat 0 10px;
+}
+.feature-container .feature .item4
+{
+    background: url('../img/hinh4.jpg') no-repeat 0 10px;
+}
+.feature-container .feature .item5
+{
+    background: url('../img/hinh5.jpg') no-repeat 0 10px;
+}
+.feature-container .feature .item6
+{
+    background: url('../img/hinh6.jpg') no-repeat 0 10px;
+}
+.feature-container .feature .item7
+{
+    background: url('../img/hinh7.jpg') no-repeat 0 10px;
+}
+.feature-container .feature .item8
+{
+    background: url('../img/hinh8.jpg') no-repeat 0 10px;
+}
+.feature-container .feature .item9
+{
+    background: url('../img/hinh9.jpg') no-repeat 0 10px;
+}
+/*Form contact*/
+.contact-section
+{
+    overflow: hidden;
+
+    width: 100%;
+    padding: 80px 0 80px 0;
+
+    background: #f8f8f8;
+}
+.contact-section .contact-wrap
+{
+    width: 1170px;
+    margin: 0 auto;
+}
+.contact-section .contact-wrap .contact-form-wrap,
+.contact-section .contact-wrap .info
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 15px;
+}
+.contact-section .contact-wrap .contact-form-wrap .contact-form-holder
+{
+    padding: 20px 50px 40px 50px;
+
+    background: #f2f2f2;
+}
+.contact-section .contact-wrap .contact-form-wrap .contact-form-holder input,
+.contact-section .contact-wrap .contact-form-wrap .contact-form-holder textarea
+{
+    padding: 8px 0 8px 0;
+
+    border: none;
+    border-bottom: solid 1px #ccc;
+    background: none;
+}
+.contact-form-holder .form-control
+{
+    font-size: 14px;
+    line-height: 1.42857143;
+
+    display: block;
+
+    width: 100%;
+    margin: 8px 0;
+
+    color: #555;
+}
+.contact-section .contact-wrap .contact-form-wrap .contact-form-holder .btn-custom
+{
+    padding: 5px 20px 6px 20px;
+
+    color: #fff;
+    -moz-border-radius: 2px;
+         border-radius: 2px;
+    background: #8ec92f;
+
+    -webkt-border-radius: 2px;
+      -o-border-radius: 2px;
+}
+.contact-section .contact-wrap .info
+{
+    font-size: 13px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #888;
+}
+.contact-section .contact-wrap .info a
+{
+    font-size: 32px;
+
+    margin: 0 10px 0 10px;
+
+    color: #8ec92f;
+}
+.contact-section .contact-wrap .info a:hover
+{
+    color: #333;
+}
+.info div
+{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+    border-bottom: 1px solid #ddd;
+}
+.info div:last-child
+{
+    border: 0;
+}
+span.info-title
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    display: block;
+
+    color: #222;
+}
+footer
+{
+    font-size: 13px;
+
+    padding: 40px 0 40px 0;
+
+    color: #ccc;
+    background: #111;
+}
+.footer-section
+{
+    width: 1170px;
+    margin: 0 auto;
+}
+.footer-section .col-left,
+.footer-section .col-right
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 15px;
+}
+.footer-section .col-left
+{
+    text-align: left;
+}
+.footer-section .col-right
+{
+    text-align: right;
+}
+.col-right li
+{
+    display: inline-block;
+
+    padding-right: 10px;
+}
+.col-right li a
+{
+    list-style: none;
+
+    text-decoration: none;
+
+    color: #ccc;
+}
+.col-right li a:hover
+{
+    text-decoration: underline;
+}
