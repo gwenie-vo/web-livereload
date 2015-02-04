@@ -1,0 +1,4 @@
+__MACOSX/web-livereload/
+cookbooks/
+node_modules/
+Gruntfile.js
